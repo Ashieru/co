@@ -130,10 +130,10 @@ const setup = async () => {
     startOverlayEvents();
 }
 
-if (TestMode) {
-    console.log("Test")
-    const rx = AddedNewCombatantDragons["English"];
-    TestLogs.forEach(log => check(rx, log, true));
-}
+//if (TestMode) {
+//    console.log("Test")
+  //  const rx = AddedNewCombatantDragons["English"];
+   // TestLogs.forEach(log => check(rx, log, true));
+//}
 
 setup();
