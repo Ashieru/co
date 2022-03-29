@@ -112,11 +112,11 @@ const TestLogs = [
 
 const AddedNewCombatantDragons = {
     English: /^(?<type>(?:03))\|(?<timestamp>(?:[^|]*))\|(?<id>(?:[^|]*))\|(Tail Of Darkness|Thunderwing|Fang Of Light|Firehorn|Iceclaw)\|(?<job>(?:[^|]*))\|(?<level>(?:[^|]*))\|(?<ownerId>(?:[^|]*))\|(?<worldId>(?:[^|]*))\|(?<world>(?:[^|]*))\|(?<npcNameId>(?:[^|]*))\|(?<npcBaseId>(?:[^|]*))\|(?<currentHp>(?:[^|]*))\|(?<hp>(?:[^|]*))\|(?<currentMp>(?:[^|]*))\|(?<mp>(?:[^|]*))\|(?:[^|]*\|){2}(?<x>(?:[^|]*))\|(?<y>(?:[^|]*))\|(?<z>(?:[^|]*))\|(?<heading>(?:[^|]*))
-/,
+\/,
     French: null,
     German: null,
     Japanese: /^(?<type>(?:03))\|(?<timestamp>(?:[^|]*))\|(?<id>(?:[^|]*))\|(ダークテイル|サンダーウィング|ライトファング|ファイアホーン|アイスクロウ)\|(?<job>(?:[^|]*))\|(?<level>(?:[^|]*))\|(?<ownerId>(?:[^|]*))\|(?<worldId>(?:[^|]*))\|(?<world>(?:[^|]*))\|(?<npcNameId>(?:[^|]*))\|(?<npcBaseId>(?:[^|]*))\|(?<currentHp>(?:[^|]*))\|(?<hp>(?:[^|]*))\|(?<currentMp>(?:[^|]*))\|(?<mp>(?:[^|]*))\|(?:[^|]*\|){2}(?<x>(?:[^|]*))\|(?<y>(?:[^|]*))\|(?<z>(?:[^|]*))\|(?<heading>(?:[^|]*))
-/,
+\/,
     Chinese: null,
     Korean: null,
 }
